@@ -1,0 +1,100 @@
+{
+ "generated": "2026-10-26T19:24:42.936584+00:00",
+ "truth": {
+  "child_name": "Juma",
+  "age_months": 48,
+  "length_cm": 100,
+  "measured_lying": true,
+  "weight_kg": 16,
+  "muac_cm": 15.4,
+  "sex": null
+ },
+ "summary": {
+  "runs": 8,
+  "all_fields_correct": 2,
+  "misreads": 6,
+  "misreads_caught_by_range_check": 4,
+  "misreads_left_for_worker": 2,
+  "sex_guessed": 0,
+  "mean_cost_usd": 0.000179
+ },
+ "rows": [
+  {
+   "run": 1,
+   "all_correct": false,
+   "wrong_fields": {
+    "length_cm": 10.0
+   },
+   "blocked_by_range_check": "length cm = 10.0 is outside the plausible range 38.0–130.0. Check the units and re-measure.",
+   "cost_usd": 0.0002,
+   "seconds": 7.58
+  },
+  {
+   "run": 2,
+   "all_correct": false,
+   "wrong_fields": {
+    "length_cm": 10.0
+   },
+   "blocked_by_range_check": "length cm = 10.0 is outside the plausible range 38.0–130.0. Check the units and re-measure.",
+   "cost_usd": 0.000184,
+   "seconds": 3.61
+  },
+  {
+   "run": 3,
+   "all_correct": false,
+   "wrong_fields": {
+    "length_cm": 10.0
+   },
+   "blocked_by_range_check": "length cm = 10.0 is outside the plausible range 38.0–130.0. Check the units and re-measure.",
+   "cost_usd": 0.00022,
+   "seconds": 4.13
+  },
+  {
+   "run": 4,
+   "all_correct": false,
+   "wrong_fields": {
+    "child_name": "Jan",
+    "length_cm": 101.0
+   },
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000177,
+   "seconds": 6.73
+  },
+  {
+   "run": 5,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000135,
+   "seconds": 2.81
+  },
+  {
+   "run": 6,
+   "all_correct": false,
+   "wrong_fields": {
+    "length_cm": 10.0
+   },
+   "blocked_by_range_check": "length cm = 10.0 is outside the plausible range 38.0–130.0. Check the units and re-measure.",
+   "cost_usd": 0.000219,
+   "seconds": 5.74
+  },
+  {
+   "run": 7,
+   "all_correct": false,
+   "wrong_fields": {
+    "child_name": "Jane"
+   },
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000121,
+   "seconds": 3.97
+  },
+  {
+   "run": 8,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000174,
+   "seconds": 3.07
+  }
+ ]
+}

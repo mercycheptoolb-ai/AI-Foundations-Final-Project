@@ -1,0 +1,115 @@
+{
+ "generated": "2026-10-26T19:26:23.477959+00:00",
+ "truth": {
+  "child_name": "Juma",
+  "age_months": 48,
+  "length_cm": 100,
+  "measured_lying": true,
+  "weight_kg": 16,
+  "muac_cm": 15.4,
+  "sex": null
+ },
+ "summary": {
+  "runs": 8,
+  "all_fields_correct": 6,
+  "misreads": 2,
+  "misreads_caught_by_range_check": 1,
+  "misreads_left_for_worker": 1,
+  "sex_guessed": 0,
+  "mean_cost_usd": 0.00018
+ },
+ "rows": [
+  {
+   "run": 1,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000313,
+   "seconds": 4.29
+  },
+  {
+   "run": 2,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000163,
+   "seconds": 7.92
+  },
+  {
+   "run": 3,
+   "all_correct": false,
+   "wrong_fields": {
+    "child_name": "Jan",
+    "length_cm": 10.0
+   },
+   "blocked_by_range_check": "length cm = 10.0 is outside the plausible range 38.0\u2013130.0. Check the units and re-measure.",
+   "cost_usd": 0.00027,
+   "seconds": 4.74
+  },
+  {
+   "run": 4,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000134,
+   "seconds": 3.22
+  },
+  {
+   "run": 5,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000143,
+   "seconds": 5.5
+  },
+  {
+   "run": 6,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000136,
+   "seconds": 2.67
+  },
+  {
+   "run": 7,
+   "all_correct": false,
+   "wrong_fields": {
+    "child_name": "Jane"
+   },
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000134,
+   "seconds": 3.09
+  },
+  {
+   "run": 8,
+   "all_correct": true,
+   "wrong_fields": {},
+   "blocked_by_range_check": null,
+   "cost_usd": 0.000149,
+   "seconds": 3.37
+  }
+ ],
+ "iterations": [
+  {
+   "setting": "default image detail",
+   "all_fields_correct": 2,
+   "runs": 8,
+   "length_correct": 3,
+   "misreads_caught_by_range_check": 4
+  },
+  {
+   "setting": "high image detail",
+   "all_fields_correct": 3,
+   "runs": 8,
+   "length_correct": 4,
+   "misreads_caught_by_range_check": 4
+  },
+  {
+   "setting": "high detail + read-every-digit prompt rule (current)",
+   "all_fields_correct": 6,
+   "runs": 8,
+   "length_correct": 7,
+   "misreads_caught_by_range_check": 1
+  }
+ ]
+}

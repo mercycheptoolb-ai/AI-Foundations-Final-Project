@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kukua 🌱 Growth monitoring assistant</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="shell">
+
+<!-- ================= sidebar: brand, account, usage ================= -->
+<aside class="sidebar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">🌱</div>
+    <div>
+      <h1><span class="k">Kukua</span> 🌈</h1>
+      <p>Growth checks for little ones</p>
+    </div>
+  </div>
+
+  <section class="side-card" id="guest-panel">
+    <h3>👋 Karibu!</h3>
+    <p class="hint">You're a guest: growth checks work right away, nothing is saved.</p>
+    <p class="perk">🔐 Sign in to save visits, give each child an ID and see their history.</p>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-login" aria-selected="true">Sign in</button>
+      <button type="button" role="tab" id="tab-register" aria-selected="false">New account</button>
+    </div>
+    <form id="login-form" class="auth-form" autocomplete="on">
+      <input name="username" autocomplete="username" required maxlength="30" placeholder="👤 Username" aria-label="Username">
+      <input name="password" type="password" autocomplete="current-password" required maxlength="128" placeholder="🔒 Password" aria-label="Password">
+      <button class="primary" type="submit">Sign in</button>
+    </form>
+    <form id="register-form" class="auth-form" hidden autocomplete="off">
+      <input name="full_name" required maxlength="80" placeholder="🧑🏾‍⚕️ Your name" aria-label="Your name">
+      <input name="facility" required maxlength="80" placeholder="🏥 Facility or community unit" aria-label="Facility">
+      <input name="username" required maxlength="30" pattern="[A-Za-z0-9._-]{3,30}" placeholder="👤 Username" aria-label="Username">
+      <input name="password" type="password" required minlength="8" maxlength="128" autocomplete="new-password" placeholder="🔒 Password (8+ characters)" aria-label="Password">
+      <button class="primary" type="submit">Create account</button>
+    </form>
+    <div id="auth-msg"></div>
+    <p class="fine">Demo account: see the README.</p>
+  </section>
+
+  <section class="side-card" id="user-panel" hidden>
+    <div class="who">
+      <div class="avatar" aria-hidden="true">🧑🏾‍⚕️</div>
+      <div><h3 id="user-name"></h3><p class="hint" id="user-facility"></p></div>
+    </div>
+    <p class="signed-in">✅ Signed in · visits are saved</p>
+    <button class="ghost" id="logout" type="button">Sign out</button>
+  </section>
+
+  <section class="side-card usage" aria-label="AI usage">
+    <h4>🪙 AI usage</h4>
+    <div id="usage-today"></div>
+    <dl id="usage-last"></dl>
+  </section>
+
+  <section class="side-card twiga">
+    <h4>🦒 Twiga, the data guide</h4>
+    <p class="hint">County nutrition figures, in English or Swahili.</p>
+    <button class="ghost" id="chat-open" type="button" aria-expanded="false" aria-controls="chat">💬 Ask Twiga</button>
+  </section>
+
+  <p class="side-foot">🌱 Supports, never replaces, clinical judgement.<br>WHO Child Growth Standards · Kenya DHS 2014 &amp; 2022 · gpt-6-luna</p>
+</aside>
+
+<!-- ================= workspace: input on the left, result always visible on the right ================= -->
+<main class="workspace">
+  <section class="pane input-pane" aria-label="Visit">
+    <nav class="stepper" role="tablist" aria-label="Steps">
+      <button type="button" role="tab" data-step="note" aria-selected="true"><span class="num">1</span> 📝 Visit note</button>
+      <span class="stepper-line" aria-hidden="true"></span>
+      <button type="button" role="tab" data-step="check" aria-selected="false"><span class="num">2</span> 🔍 Check measurements</button>
+    </nav>
+
+    <div class="pane-body">
+      <!-- step 1 -->
+      <div id="step-note">
+        <p class="hint">Type or paste what you measured, in English or Swahili, or snap a photo of the growth card. Try an example:</p>
+        <div class="chips" id="examples" aria-label="Example notes"></div>
+        <textarea id="note" rows="7" maxlength="1500" placeholder="e.g. Amani, girl, 18 months. 9.4 kg, 78 cm lying. MUAC 12.2. No swelling."></textarea>
+        <div class="row">
+          <label class="file"><input type="file" id="photo" accept="image/jpeg,image/png,image/webp"><span id="photo-label">📷 Add photo</span></label>
+          <span class="spacer"></span>
+          <button class="primary" id="read" type="button">✨ Read note</button>
+        </div>
+        <p class="alt">No note? <button class="linkbtn" id="manual" type="button">✍️ Type the numbers in yourself</button></p>
+        <div id="intake-msgs"></div>
+      </div>
+
+      <!-- step 2 -->
+      <div id="step-check" hidden>
+        <div id="check-msgs"></div>
+        <form id="record" class="form" autocomplete="off">
+          <label>🆔 Child ID<input name="child_id" maxlength="30" placeholder="e.g. KK-0001 (blank = new child)"></label>
+          <label>🧒🏾 Child name<input name="child_name" maxlength="80"></label>
+          <div class="wide" id="id-status" aria-live="polite"></div>
+          <label>👧🏾👦🏾 Sex<select name="sex" required><option value="">–</option><option value="female">Girl</option><option value="male">Boy</option></select></label>
+          <label>🎂 Age (months)<input name="age_months" type="number" step="0.1" min="0" max="60" required></label>
+          <label>⚖️ Weight (kg)<input name="weight_kg" type="number" step="0.01" min="0" required></label>
+          <label>📏 Length / height (cm)<input name="length_cm" type="number" step="0.1" min="0"></label>
+          <label>🛏️ Measured<select name="measured_lying"><option value="">Not stated</option><option value="true">Lying down</option><option value="false">Standing up</option></select></label>
+          <label>💪🏾 MUAC (cm)<input name="muac_cm" type="number" step="0.1" min="0"></label>
+          <label>🗣️ Caregiver language<select name="caregiver_language"><option value="English">English</option><option value="Swahili">Kiswahili</option></select></label>
+          <label class="check"><input type="checkbox" name="oedema"> 🦶🏾 Swelling of both feet</label>
+          <details class="wide more">
+            <summary>🚩 Danger signs and notes</summary>
+            <fieldset>
+              <label class="check"><input type="checkbox" name="danger" value="unable to drink or breastfeed"> Can't drink or breastfeed</label>
+              <label class="check"><input type="checkbox" name="danger" value="vomits everything"> Vomits everything</label>
+              <label class="check"><input type="checkbox" name="danger" value="convulsions"> Convulsions</label>
+              <label class="check"><input type="checkbox" name="danger" value="lethargic or unconscious"> Very sleepy / unconscious</label>
+            </fieldset>
+            <label>🗒️ Notes<textarea name="notes" rows="2" maxlength="600"></textarea></label>
+          </details>
+          <div class="row wide sticky-actions">
+            <label class="check small"><input type="checkbox" name="ai_note" checked> 🤖 AI counselling note</label>
+            <span class="spacer"></span>
+            <button class="ghost" id="back" type="button">← Note</button>
+            <button class="ghost" id="clear" type="button">Clear</button>
+            <button class="primary" type="submit" id="assess">🌱 Check growth</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="pane result-pane" aria-label="Result">
+    <nav class="pane-tabs" role="tablist" aria-label="Result views">
+      <button type="button" role="tab" data-tab="result" aria-selected="true">🩺 Growth result</button>
+      <button type="button" role="tab" data-tab="visits" aria-selected="false">📒 My visits</button>
+    </nav>
+    <div class="pane-body" id="result-body">
+      <div id="result"></div>
+      <div id="visits" hidden></div>
+    </div>
+  </section>
+</main>
+</div>
+
+<!-- ================= data guide chat ================= -->
+<section class="chat" id="chat" hidden aria-label="Data guide chat">
+  <header>
+    <div class="chat-avatar" aria-hidden="true">🦒</div>
+    <div><b>Twiga, the data guide</b><small>Kenya DHS 2014 &amp; 2022 · 47 counties · WHO</small></div>
+    <button class="chat-close" id="chat-close" type="button" aria-label="Close chat">✕</button>
+  </header>
+  <div class="chat-log" id="chat-log" aria-live="polite">
+    <div class="msg-bot">Habari! 👋 Ask me how common stunting, wasting, underweight or overweight is in any Kenyan county or region, how it changed since 2014, or how it differs by wealth, age or urban/rural.</div>
+    <div class="chat-chips" id="chat-chips"></div>
+  </div>
+  <form class="chat-input" id="chat-form">
+    <input id="chat-q" maxlength="500" placeholder="e.g. Stunting in Turkana?" autocomplete="off" aria-label="Your question">
+    <button class="primary" type="submit" aria-label="Send">➤</button>
+  </form>
+</section>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

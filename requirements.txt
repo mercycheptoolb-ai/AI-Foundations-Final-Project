@@ -1,0 +1,11 @@
+# Python 3.11+ (tested on 3.13)
+pydantic-ai-slim[openai]==2.45.0
+openai==3.16.2
+pydantic==2.13.5
+python-dotenv==1.2.3
+fastapi
+uvicorn
+python-multipart
+openpyxl
+certifi
+tiktoken

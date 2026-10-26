@@ -1,0 +1,9742 @@
+{
+"source": "Kenya Demographic and Health Survey 2014 and 2022, via The DHS Program API (api.dhsprogram.com)",
+"indicators": {
+"stunting": {
+"label": "Children under 5 stunted (height-for-age < -2 SD)",
+"population": "children",
+"unit": "%"
+},
+"severe_stunting": {
+"label": "Children under 5 severely stunted (< -3 SD)",
+"population": "children",
+"unit": "%"
+},
+"wasting": {
+"label": "Children under 5 wasted (weight-for-height < -2 SD)",
+"population": "children",
+"unit": "%"
+},
+"severe_wasting": {
+"label": "Children under 5 severely wasted (< -3 SD)",
+"population": "children",
+"unit": "%"
+},
+"underweight": {
+"label": "Children under 5 underweight (weight-for-age < -2 SD)",
+"population": "children",
+"unit": "%"
+},
+"child_overweight": {
+"label": "Children under 5 overweight (weight-for-height > +2 SD)",
+"population": "children",
+"unit": "%"
+},
+"women_thin": {
+"label": "Women 15-49 thin (BMI < 18.5)",
+"population": "women",
+"unit": "%"
+},
+"women_overweight_or_obese": {
+"label": "Women 15-49 overweight or obese (BMI >= 25)",
+"population": "women",
+"unit": "%"
+},
+"women_obese": {
+"label": "Women 15-49 obese (BMI >= 30)",
+"population": "women",
+"unit": "%"
+},
+"women_mean_bmi": {
+"label": "Women 15-49 mean BMI (kg/m2)",
+"population": "women",
+"unit": "kg/m²"
+},
+"women_short": {
+"label": "Women 15-49 shorter than 145 cm",
+"population": "women",
+"unit": "%"
+}
+},
+"rows": [
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 8.1,
+"sample": 20524
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 26,
+"sample": 20524
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 0.9,
+"sample": 20524
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 4,
+"sample": 20524
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 4.1,
+"sample": 20524
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 11,
+"sample": 20524
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 0.8,
+"sample": 14424
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 23.7,
+"sample": 13215
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 8.9,
+"sample": 13215
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 32.8,
+"sample": 13215
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "national",
+"name": "Kenya",
+"value": 10.1,
+"sample": 13215
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 4.2,
+"sample": 19588
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 17.6,
+"sample": 19588
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 0.6,
+"sample": 19688
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 4.9,
+"sample": 19688
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 3.2,
+"sample": 19688
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 10.1,
+"sample": 19649
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 0.6,
+"sample": 16673
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 24.3,
+"sample": 15290
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 9.5,
+"sample": 15290
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 38.3,
+"sample": 15290
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "national",
+"name": "Kenya",
+"value": 14.2,
+"sample": 15290
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 10.4,
+"sample": 2539
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 7.1,
+"sample": 286
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 10.5,
+"sample": 442
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 13.6,
+"sample": 558
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 9.4,
+"sample": 615
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 7.1,
+"sample": 346
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 5.8,
+"sample": 292
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 10.7,
+"sample": 1485
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 5.9,
+"sample": 530
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 10.3,
+"sample": 529
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 19,
+"sample": 426
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 8.2,
+"sample": 3058
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 10.7,
+"sample": 437
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 5.1,
+"sample": 505
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 6.2,
+"sample": 319
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 7.6,
+"sample": 269
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 6.5,
+"sample": 267
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 12.7,
+"sample": 449
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 7.1,
+"sample": 396
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 7.8,
+"sample": 416
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 4.9,
+"sample": 1401
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 8.1,
+"sample": 307
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 5.6,
+"sample": 295
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 3.7,
+"sample": 220
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 4.8,
+"sample": 284
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 3.8,
+"sample": 295
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 9.3,
+"sample": 6608
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 7.1,
+"sample": 530
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 19,
+"sample": 573
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 9.8,
+"sample": 534
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 10.7,
+"sample": 479
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 11.1,
+"sample": 418
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 7.3,
+"sample": 410
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 8.3,
+"sample": 467
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 8.4,
+"sample": 431
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 7.4,
+"sample": 384
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 7.2,
+"sample": 432
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 8.7,
+"sample": 657
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 7.1,
+"sample": 435
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 10.5,
+"sample": 384
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 10.7,
+"sample": 474
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 8.2,
+"sample": 2124
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 12.3,
+"sample": 545
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 6,
+"sample": 445
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 6.4,
+"sample": 605
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 5.4,
+"sample": 529
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 7.6,
+"sample": 2860
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 7.1,
+"sample": 465
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 6.9,
+"sample": 437
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 4.2,
+"sample": 537
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 10.1,
+"sample": 605
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 9.3,
+"sample": 462
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 10.1,
+"sample": 354
+},
+{
+"indicator": "severe_stunting",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 3.9,
+"sample": 449
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 30.8,
+"sample": 2539
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 21.1,
+"sample": 286
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 29.7,
+"sample": 442
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 39.1,
+"sample": 558
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 28.1,
+"sample": 615
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 29.2,
+"sample": 346
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 23.8,
+"sample": 292
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 24.7,
+"sample": 1485
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 15.6,
+"sample": 530
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 26.4,
+"sample": 529
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 36.1,
+"sample": 426
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 30.1,
+"sample": 3058
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 26.5,
+"sample": 437
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 19.1,
+"sample": 505
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 25.2,
+"sample": 319
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 32.9,
+"sample": 269
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 26.8,
+"sample": 267
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 45.8,
+"sample": 449
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 26.5,
+"sample": 396
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 25.1,
+"sample": 416
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 18.4,
+"sample": 1401
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 29.4,
+"sample": 307
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 15.1,
+"sample": 295
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 17.2,
+"sample": 220
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 19.3,
+"sample": 284
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 15.7,
+"sample": 295
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 29.8,
+"sample": 6608
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 23.9,
+"sample": 530
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 45.9,
+"sample": 573
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 30.1,
+"sample": 534
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 29.2,
+"sample": 479
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 31.2,
+"sample": 418
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 29.9,
+"sample": 410
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 29.9,
+"sample": 467
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 29.5,
+"sample": 431
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 26.9,
+"sample": 384
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 27.6,
+"sample": 432
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 32.9,
+"sample": 657
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 18.2,
+"sample": 435
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 28.7,
+"sample": 384
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 35.5,
+"sample": 474
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 25.2,
+"sample": 2124
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 28.4,
+"sample": 545
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 23.5,
+"sample": 445
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 24.4,
+"sample": 605
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 22,
+"sample": 529
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 22.7,
+"sample": 2860
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 24.7,
+"sample": 465
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 18,
+"sample": 437
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 18.7,
+"sample": 537
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 26.4,
+"sample": 605
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 25.5,
+"sample": 462
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 25.5,
+"sample": 354
+},
+{
+"indicator": "stunting",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 17.2,
+"sample": 449
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 0.8,
+"sample": 2539
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 0,
+"sample": 286
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 0.8,
+"sample": 442
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 0.9,
+"sample": 558
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 0.9,
+"sample": 615
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 0.3,
+"sample": 346
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 3.6,
+"sample": 292
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 2.6,
+"sample": 1485
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 1.3,
+"sample": 530
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 3.1,
+"sample": 529
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 3.8,
+"sample": 426
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 1.2,
+"sample": 3058
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 5.1,
+"sample": 437
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 2.4,
+"sample": 505
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 1,
+"sample": 319
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 0,
+"sample": 269
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 0.2,
+"sample": 267
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 0.4,
+"sample": 449
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 2.5,
+"sample": 396
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 1,
+"sample": 416
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 0.2,
+"sample": 1401
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 0.1,
+"sample": 307
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 0,
+"sample": 295
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 0.8,
+"sample": 220
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 0,
+"sample": 284
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 0.3,
+"sample": 295
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 1.3,
+"sample": 6608
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 4.4,
+"sample": 530
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 2.4,
+"sample": 573
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 2.8,
+"sample": 534
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 2,
+"sample": 479
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 1.1,
+"sample": 418
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 1.2,
+"sample": 410
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 1,
+"sample": 467
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 1.2,
+"sample": 431
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 0.8,
+"sample": 384
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 0.6,
+"sample": 432
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 0.7,
+"sample": 657
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 0.8,
+"sample": 435
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 1.1,
+"sample": 384
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 0.4,
+"sample": 474
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 0.4,
+"sample": 2124
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 0.5,
+"sample": 545
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 0.4,
+"sample": 445
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 0.2,
+"sample": 605
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 0.7,
+"sample": 529
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 0.4,
+"sample": 2860
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 0,
+"sample": 465
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 0,
+"sample": 437
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 0.9,
+"sample": 537
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 0.9,
+"sample": 605
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 0,
+"sample": 462
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 0.9,
+"sample": 354
+},
+{
+"indicator": "severe_wasting",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 0.8,
+"sample": 449
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 4.5,
+"sample": 2539
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 4.1,
+"sample": 286
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 4.4,
+"sample": 442
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 4.1,
+"sample": 558
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 5.7,
+"sample": 615
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 4.2,
+"sample": 346
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 7.2,
+"sample": 292
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 13.3,
+"sample": 1485
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 11.4,
+"sample": 530
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 14.2,
+"sample": 529
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 14.8,
+"sample": 426
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 4.4,
+"sample": 3058
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 16.3,
+"sample": 437
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 9.1,
+"sample": 505
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 2.9,
+"sample": 319
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 3.3,
+"sample": 269
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 3,
+"sample": 267
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 3.4,
+"sample": 449
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 6.5,
+"sample": 396
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 2.1,
+"sample": 416
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 2.3,
+"sample": 1401
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 2,
+"sample": 307
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 2.4,
+"sample": 295
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 3.9,
+"sample": 220
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 1.4,
+"sample": 284
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 2.3,
+"sample": 295
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 5.7,
+"sample": 6608
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 22.9,
+"sample": 530
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 14.3,
+"sample": 573
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 13.6,
+"sample": 534
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 3.9,
+"sample": 479
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 3,
+"sample": 418
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 4.3,
+"sample": 410
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 3.9,
+"sample": 467
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 6.9,
+"sample": 431
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 4.4,
+"sample": 384
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 4.5,
+"sample": 432
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 2.4,
+"sample": 657
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 3,
+"sample": 435
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 5.6,
+"sample": 384
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 1.8,
+"sample": 474
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 1.9,
+"sample": 2124
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 1.8,
+"sample": 545
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 2.6,
+"sample": 445
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 1.8,
+"sample": 605
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 2.2,
+"sample": 529
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 2,
+"sample": 2860
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 0.2,
+"sample": 465
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 0.8,
+"sample": 437
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 2.3,
+"sample": 537
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 4,
+"sample": 605
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 1.7,
+"sample": 462
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 4.1,
+"sample": 354
+},
+{
+"indicator": "wasting",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 2.5,
+"sample": 449
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 3.3,
+"sample": 2539
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 4.2,
+"sample": 286
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 3.8,
+"sample": 442
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 2.8,
+"sample": 558
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 1.3,
+"sample": 615
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 2,
+"sample": 346
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 4.2,
+"sample": 292
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 2.6,
+"sample": 1485
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 2.3,
+"sample": 530
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 0.7,
+"sample": 529
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 5.9,
+"sample": 426
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 4.3,
+"sample": 3058
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 1,
+"sample": 437
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 1.6,
+"sample": 505
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 4.9,
+"sample": 319
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 3.6,
+"sample": 269
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 3.6,
+"sample": 267
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 3.1,
+"sample": 449
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 5.5,
+"sample": 396
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 5.3,
+"sample": 416
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 6.2,
+"sample": 1401
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 6.8,
+"sample": 307
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 5.9,
+"sample": 295
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 4.5,
+"sample": 220
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 3.1,
+"sample": 284
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 7.9,
+"sample": 295
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 3.7,
+"sample": 6608
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 0.2,
+"sample": 530
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 1.4,
+"sample": 573
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 0.6,
+"sample": 534
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 2.4,
+"sample": 479
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 5.1,
+"sample": 418
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 4.5,
+"sample": 410
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 3.7,
+"sample": 467
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 2,
+"sample": 431
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 3.7,
+"sample": 384
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 5.7,
+"sample": 432
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 3,
+"sample": 657
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 4.3,
+"sample": 435
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 6.6,
+"sample": 384
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 3.7,
+"sample": 474
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 3.4,
+"sample": 2124
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 4.3,
+"sample": 545
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 4,
+"sample": 445
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 2.9,
+"sample": 605
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 2.4,
+"sample": 529
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 4.4,
+"sample": 2860
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 4.7,
+"sample": 465
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 5.7,
+"sample": 437
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 4.1,
+"sample": 537
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 4.4,
+"sample": 605
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 4,
+"sample": 462
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 2.9,
+"sample": 354
+},
+{
+"indicator": "child_overweight",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 5.3,
+"sample": 449
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 13.6,
+"sample": 2539
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 9.6,
+"sample": 286
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 11.8,
+"sample": 442
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 16.9,
+"sample": 558
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 18.6,
+"sample": 615
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 11.8,
+"sample": 346
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 7.8,
+"sample": 292
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 19,
+"sample": 1485
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 13.1,
+"sample": 530
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 21.1,
+"sample": 529
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 24.9,
+"sample": 426
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 12.2,
+"sample": 3058
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 30.1,
+"sample": 437
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 12.9,
+"sample": 505
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 8.1,
+"sample": 319
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 10.8,
+"sample": 269
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 11.1,
+"sample": 267
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 19.7,
+"sample": 449
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 8.1,
+"sample": 396
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 10.2,
+"sample": 416
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 5.3,
+"sample": 1401
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 6.8,
+"sample": 307
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 2.5,
+"sample": 295
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 7.7,
+"sample": 220
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 5.6,
+"sample": 284
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 5.1,
+"sample": 295
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 15.3,
+"sample": 6608
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 34,
+"sample": 530
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 38.5,
+"sample": 573
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 28.9,
+"sample": 534
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 15.3,
+"sample": 479
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 11.5,
+"sample": 418
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 12.6,
+"sample": 410
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 11.1,
+"sample": 467
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 20.2,
+"sample": 431
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 13.9,
+"sample": 384
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 10.2,
+"sample": 432
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 11.6,
+"sample": 657
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 8.1,
+"sample": 435
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 12.4,
+"sample": 384
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 12,
+"sample": 474
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 9,
+"sample": 2124
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 10.1,
+"sample": 545
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 5.9,
+"sample": 445
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 9,
+"sample": 605
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 9,
+"sample": 529
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 7.4,
+"sample": 2860
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 7.8,
+"sample": 465
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 6.6,
+"sample": 437
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 5.4,
+"sample": 537
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 8.6,
+"sample": 605
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 8.4,
+"sample": 462
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 9.6,
+"sample": 354
+},
+{
+"indicator": "underweight",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 3.8,
+"sample": 449
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 2.1,
+"sample": 1802
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 1,
+"sample": 260
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 4,
+"sample": 305
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 2.3,
+"sample": 379
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 1.1,
+"sample": 314
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 2.3,
+"sample": 293
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 0.9,
+"sample": 251
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 0.1,
+"sample": 734
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 0.3,
+"sample": 270
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 0,
+"sample": 216
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 0,
+"sample": 248
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 1.7,
+"sample": 2468
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 0.9,
+"sample": 265
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 0.3,
+"sample": 284
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 1.6,
+"sample": 328
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 0.5,
+"sample": 249
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 0.7,
+"sample": 293
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 3.5,
+"sample": 354
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 0.8,
+"sample": 338
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 2.6,
+"sample": 357
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 0.7,
+"sample": 1467
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 0.6,
+"sample": 263
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 0.7,
+"sample": 356
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 0.5,
+"sample": 263
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 0,
+"sample": 300
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 1.1,
+"sample": 285
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 0.5,
+"sample": 4171
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 0.9,
+"sample": 231
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 0.5,
+"sample": 247
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 0.6,
+"sample": 270
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 0.2,
+"sample": 327
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 0.3,
+"sample": 334
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 0,
+"sample": 273
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 0.3,
+"sample": 340
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 0.7,
+"sample": 267
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 0,
+"sample": 290
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 1.4,
+"sample": 339
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 0.4,
+"sample": 320
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 0.2,
+"sample": 288
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 0,
+"sample": 309
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 0.4,
+"sample": 336
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 0.4,
+"sample": 1371
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 0.8,
+"sample": 347
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 1,
+"sample": 301
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 0,
+"sample": 385
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 0.3,
+"sample": 338
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 0.5,
+"sample": 1972
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 0.5,
+"sample": 307
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 0.5,
+"sample": 327
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 0.3,
+"sample": 318
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 0.2,
+"sample": 344
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 0.7,
+"sample": 378
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 1.2,
+"sample": 298
+},
+{
+"indicator": "women_short",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 0.3,
+"sample": 439
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 23.5,
+"sample": 1644
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 25.4,
+"sample": 237
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 22.8,
+"sample": 275
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 22.3,
+"sample": 346
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 21.5,
+"sample": 277
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 24.1,
+"sample": 276
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 25.3,
+"sample": 233
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 21.5,
+"sample": 624
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 21.1,
+"sample": 224
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 22.2,
+"sample": 183
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 21.4,
+"sample": 217
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 23.4,
+"sample": 2299
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 21.3,
+"sample": 228
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 22.1,
+"sample": 260
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 23.9,
+"sample": 304
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 22.9,
+"sample": 240
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 23.7,
+"sample": 278
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 23.2,
+"sample": 336
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 23.6,
+"sample": 319
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 23.3,
+"sample": 334
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 25.3,
+"sample": 1376
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 24.5,
+"sample": 248
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 25.3,
+"sample": 330
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 25.9,
+"sample": 246
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 25.1,
+"sample": 285
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 25.4,
+"sample": 267
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 23.1,
+"sample": 3786
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 19.4,
+"sample": 195
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 21.2,
+"sample": 207
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 20,
+"sample": 246
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 23,
+"sample": 300
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 23.6,
+"sample": 306
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 22.5,
+"sample": 248
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 22.8,
+"sample": 319
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 21.9,
+"sample": 237
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 24,
+"sample": 258
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 24.1,
+"sample": 321
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 23,
+"sample": 282
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 24.9,
+"sample": 262
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 23.1,
+"sample": 290
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 22.4,
+"sample": 315
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 23,
+"sample": 1261
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 23.3,
+"sample": 319
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 23.4,
+"sample": 281
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 22.9,
+"sample": 349
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 22.2,
+"sample": 312
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 23.3,
+"sample": 1825
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 23.1,
+"sample": 288
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 23.9,
+"sample": 298
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 22.6,
+"sample": 296
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 22.9,
+"sample": 306
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 23.6,
+"sample": 353
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 23.8,
+"sample": 284
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 25.4,
+"sample": 400
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 11,
+"sample": 1644
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 4.8,
+"sample": 237
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 16.3,
+"sample": 275
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 10.9,
+"sample": 346
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 29.1,
+"sample": 277
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 13.9,
+"sample": 276
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 4.5,
+"sample": 233
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 28.7,
+"sample": 624
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 33.2,
+"sample": 224
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 28.3,
+"sample": 183
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 23.5,
+"sample": 217
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 9.8,
+"sample": 2299
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 27,
+"sample": 228
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 24.4,
+"sample": 260
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 7.7,
+"sample": 304
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 10.9,
+"sample": 240
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 12.8,
+"sample": 278
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 9.5,
+"sample": 336
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 6.3,
+"sample": 319
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 10.6,
+"sample": 334
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 6.2,
+"sample": 1376
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 5.5,
+"sample": 248
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 3.6,
+"sample": 330
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 6.8,
+"sample": 246
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 5.8,
+"sample": 285
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 7.6,
+"sample": 267
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 11.8,
+"sample": 3786
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 45.3,
+"sample": 195
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 23.3,
+"sample": 207
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 40.8,
+"sample": 246
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 7.4,
+"sample": 300
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 11.2,
+"sample": 306
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 12.8,
+"sample": 248
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 8.4,
+"sample": 319
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 25.1,
+"sample": 237
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 14.2,
+"sample": 258
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 6.2,
+"sample": 321
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 9.7,
+"sample": 282
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 10.9,
+"sample": 262
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 6.4,
+"sample": 290
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 9.8,
+"sample": 315
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 8.6,
+"sample": 1261
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 7.7,
+"sample": 319
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 8.3,
+"sample": 281
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 9,
+"sample": 349
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 9.8,
+"sample": 312
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 6.3,
+"sample": 1825
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 9.1,
+"sample": 288
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 4.5,
+"sample": 298
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 7.1,
+"sample": 296
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 8.1,
+"sample": 306
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 4.6,
+"sample": 353
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 4.9,
+"sample": 284
+},
+{
+"indicator": "women_thin",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 2.8,
+"sample": 400
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 32.1,
+"sample": 1644
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 48.2,
+"sample": 237
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 27.8,
+"sample": 275
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 20.4,
+"sample": 346
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 19.7,
+"sample": 277
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 37.2,
+"sample": 276
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 45,
+"sample": 233
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 19,
+"sample": 624
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 17.7,
+"sample": 224
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 25,
+"sample": 183
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 15.2,
+"sample": 217
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 30.1,
+"sample": 2299
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 17.6,
+"sample": 228
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 25.2,
+"sample": 260
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 31.6,
+"sample": 304
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 24.5,
+"sample": 240
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 33.5,
+"sample": 278
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 31,
+"sample": 336
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 29.4,
+"sample": 319
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 30,
+"sample": 334
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 47.1,
+"sample": 1376
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 40.6,
+"sample": 248
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 49.2,
+"sample": 330
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 54.4,
+"sample": 246
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 47.3,
+"sample": 285
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 45.7,
+"sample": 267
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 28.6,
+"sample": 3786
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 4.7,
+"sample": 195
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 10.4,
+"sample": 207
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 8.5,
+"sample": 246
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 28.7,
+"sample": 300
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 32.2,
+"sample": 306
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 22.9,
+"sample": 248
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 23.7,
+"sample": 319
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 23.2,
+"sample": 237
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 34.4,
+"sample": 258
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 38.5,
+"sample": 321
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 25.7,
+"sample": 282
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 44,
+"sample": 262
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 23.9,
+"sample": 290
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 20.3,
+"sample": 315
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 24.4,
+"sample": 1261
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 27.3,
+"sample": 319
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 26.4,
+"sample": 281
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 24.1,
+"sample": 349
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 18.3,
+"sample": 312
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 26.5,
+"sample": 1825
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 23,
+"sample": 288
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 33.6,
+"sample": 298
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 18.8,
+"sample": 296
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 26.9,
+"sample": 306
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 28.2,
+"sample": 353
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 27.8,
+"sample": 284
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 47.6,
+"sample": 400
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Coast",
+"value": 11.6,
+"sample": 1644
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Mombasa",
+"value": 21.3,
+"sample": 237
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kwale",
+"value": 6.9,
+"sample": 275
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kilifi",
+"value": 5.4,
+"sample": 346
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Tana River",
+"value": 4,
+"sample": 277
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Lamu",
+"value": 17.2,
+"sample": 276
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Taita Taveta",
+"value": 18.9,
+"sample": 233
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "North Eastern",
+"value": 4.7,
+"sample": 624
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Garissa",
+"value": 4.5,
+"sample": 224
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Wajir",
+"value": 7.2,
+"sample": 183
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Mandera",
+"value": 2.8,
+"sample": 217
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Eastern",
+"value": 8.4,
+"sample": 2299
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Marsabit",
+"value": 2.7,
+"sample": 228
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Isiolo",
+"value": 7.1,
+"sample": 260
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Meru",
+"value": 10.2,
+"sample": 304
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 7,
+"sample": 240
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Embu",
+"value": 12.1,
+"sample": 278
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kitui",
+"value": 6,
+"sample": 336
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Machakos",
+"value": 8.7,
+"sample": 319
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Makueni",
+"value": 7.4,
+"sample": 334
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Central",
+"value": 17.6,
+"sample": 1376
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyandarua",
+"value": 15.6,
+"sample": 248
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyeri",
+"value": 15.1,
+"sample": 330
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kirinyaga",
+"value": 17.7,
+"sample": 246
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Murang'a",
+"value": 16.9,
+"sample": 285
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kiambu",
+"value": 19.6,
+"sample": 267
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Rift Valley",
+"value": 7.8,
+"sample": 3786
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Turkana",
+"value": 1,
+"sample": 195
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "West Pokot",
+"value": 3.4,
+"sample": 207
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Samburu",
+"value": 3.3,
+"sample": 246
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 7.2,
+"sample": 300
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 9.1,
+"sample": 306
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 5.6,
+"sample": 248
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Nandi",
+"value": 7,
+"sample": 319
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Baringo",
+"value": 5.7,
+"sample": 237
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Laikipia",
+"value": 14.2,
+"sample": 258
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Nakuru",
+"value": 7.2,
+"sample": 321
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Narok",
+"value": 7.7,
+"sample": 282
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kajiado",
+"value": 17.3,
+"sample": 262
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kericho",
+"value": 7.1,
+"sample": 290
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Bomet",
+"value": 4.4,
+"sample": 315
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Western",
+"value": 5.8,
+"sample": 1261
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kakamega",
+"value": 7.5,
+"sample": 319
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Vihiga",
+"value": 7,
+"sample": 281
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Bungoma",
+"value": 5,
+"sample": 349
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Busia",
+"value": 3.4,
+"sample": 312
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Nyanza",
+"value": 6.8,
+"sample": 1825
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Siaya",
+"value": 6.9,
+"sample": 288
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kisumu",
+"value": 8.8,
+"sample": 298
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Homa Bay",
+"value": 4.1,
+"sample": 296
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Migori",
+"value": 4.5,
+"sample": 306
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Kisii",
+"value": 7.6,
+"sample": 353
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "county",
+"name": "Nyamira",
+"value": 9.1,
+"sample": 284
+},
+{
+"indicator": "women_obese",
+"year": 2014,
+"level": "province",
+"name": "Nairobi",
+"value": 16.5,
+"sample": 400
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 7.7,
+"sample": 2478
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 3.5,
+"sample": 328
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 6.9,
+"sample": 444
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 13.4,
+"sample": 404
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 5.6,
+"sample": 620
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 2.5,
+"sample": 415
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 4.9,
+"sample": 267
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 3.5,
+"sample": 2059
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 0.6,
+"sample": 571
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 3.2,
+"sample": 633
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 6.3,
+"sample": 855
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 5.1,
+"sample": 2793
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 4.9,
+"sample": 533
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 4.3,
+"sample": 487
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 4.6,
+"sample": 301
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 3.4,
+"sample": 270
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 5.3,
+"sample": 252
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 8.8,
+"sample": 347
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 3.8,
+"sample": 282
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 4.2,
+"sample": 321
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 2.8,
+"sample": 1357
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 3.2,
+"sample": 287
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 2.2,
+"sample": 231
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 1.9,
+"sample": 259
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 1.1,
+"sample": 267
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 3.8,
+"sample": 313
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 4.9,
+"sample": 6381
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 7.3,
+"sample": 588
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 10.4,
+"sample": 781
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 8.9,
+"sample": 559
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 4.8,
+"sample": 393
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 2.7,
+"sample": 386
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 3.1,
+"sample": 407
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 2.6,
+"sample": 379
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 4.7,
+"sample": 439
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 2.5,
+"sample": 273
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 5.3,
+"sample": 432
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 3.5,
+"sample": 552
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 4.5,
+"sample": 418
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 3.7,
+"sample": 376
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 4.5,
+"sample": 398
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 3.2,
+"sample": 1732
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 2.1,
+"sample": 422
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 4.2,
+"sample": 343
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 4,
+"sample": 480
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 3.1,
+"sample": 487
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 3,
+"sample": 2401
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 5.3,
+"sample": 394
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 1.3,
+"sample": 416
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 2.3,
+"sample": 437
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 2.5,
+"sample": 496
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 4.3,
+"sample": 362
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 3,
+"sample": 296
+},
+{
+"indicator": "severe_stunting",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 2,
+"sample": 387
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 24.3,
+"sample": 2478
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 13.5,
+"sample": 328
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 22.7,
+"sample": 444
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 37,
+"sample": 404
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 21.1,
+"sample": 620
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 16.1,
+"sample": 415
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 19.2,
+"sample": 267
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 14.4,
+"sample": 2059
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 9,
+"sample": 571
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 12.4,
+"sample": 633
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 20.5,
+"sample": 855
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 21.1,
+"sample": 2793
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 18.9,
+"sample": 533
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 14.1,
+"sample": 487
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 25.2,
+"sample": 301
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 20.5,
+"sample": 270
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 19.9,
+"sample": 252
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 25.1,
+"sample": 347
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 16.2,
+"sample": 282
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 19.8,
+"sample": 321
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 13.9,
+"sample": 1357
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 17.8,
+"sample": 287
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 12.5,
+"sample": 231
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 11.2,
+"sample": 259
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 10.1,
+"sample": 267
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 15.3,
+"sample": 313
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 20.1,
+"sample": 6381
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 23,
+"sample": 588
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 33.5,
+"sample": 781
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 31.4,
+"sample": 559
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 21.3,
+"sample": 393
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 14.2,
+"sample": 386
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 21.8,
+"sample": 407
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 15.1,
+"sample": 379
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 21.2,
+"sample": 439
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 12.6,
+"sample": 273
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 18.5,
+"sample": 432
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 21.5,
+"sample": 552
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 14,
+"sample": 418
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 19.3,
+"sample": 376
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 22.1,
+"sample": 398
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 15.3,
+"sample": 1732
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 11.5,
+"sample": 422
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 16.6,
+"sample": 343
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 19,
+"sample": 480
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 15,
+"sample": 487
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 14.1,
+"sample": 2401
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 19.2,
+"sample": 394
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 9.1,
+"sample": 416
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 12.5,
+"sample": 437
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 14.8,
+"sample": 496
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 16.3,
+"sample": 362
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 13.5,
+"sample": 296
+},
+{
+"indicator": "stunting",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 11.1,
+"sample": 387
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 0.7,
+"sample": 2484
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 0.2,
+"sample": 327
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 1.1,
+"sample": 452
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 0.9,
+"sample": 402
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 1.3,
+"sample": 618
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 0.4,
+"sample": 419
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 0,
+"sample": 266
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 3,
+"sample": 2064
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 2.6,
+"sample": 572
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 3.6,
+"sample": 643
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 2.9,
+"sample": 849
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 0.6,
+"sample": 2812
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 3.8,
+"sample": 538
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 1.1,
+"sample": 489
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 0,
+"sample": 303
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 0,
+"sample": 270
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 1.6,
+"sample": 251
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 1.1,
+"sample": 348
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 0,
+"sample": 286
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 0,
+"sample": 327
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 0.6,
+"sample": 1364
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 0.6,
+"sample": 288
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 0,
+"sample": 232
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 0,
+"sample": 259
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 0,
+"sample": 267
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 1,
+"sample": 318
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 0.9,
+"sample": 6427
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 3.5,
+"sample": 589
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 0.9,
+"sample": 785
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 1.4,
+"sample": 568
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 0,
+"sample": 396
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 0.9,
+"sample": 386
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 1,
+"sample": 413
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 0.3,
+"sample": 380
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 2.3,
+"sample": 442
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 0,
+"sample": 275
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 0.9,
+"sample": 433
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 0.2,
+"sample": 555
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 1.3,
+"sample": 428
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 0.3,
+"sample": 376
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 0.2,
+"sample": 401
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 0,
+"sample": 1740
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 0,
+"sample": 427
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 0,
+"sample": 346
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 0,
+"sample": 479
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 0,
+"sample": 488
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 0.3,
+"sample": 2405
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 1.1,
+"sample": 396
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 0.5,
+"sample": 415
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 0,
+"sample": 436
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 0,
+"sample": 495
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 0.3,
+"sample": 363
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 0.1,
+"sample": 300
+},
+{
+"indicator": "severe_wasting",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 0,
+"sample": 392
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 6.3,
+"sample": 2484
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 4.6,
+"sample": 327
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 6.2,
+"sample": 452
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 7.2,
+"sample": 402
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 11.3,
+"sample": 618
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 3.5,
+"sample": 419
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 4.1,
+"sample": 266
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 17.8,
+"sample": 2064
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 15.3,
+"sample": 572
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 22.8,
+"sample": 643
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 17.3,
+"sample": 849
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 5.7,
+"sample": 2812
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 20.4,
+"sample": 538
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 7.2,
+"sample": 489
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 6,
+"sample": 303
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 3.1,
+"sample": 270
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 5.3,
+"sample": 251
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 4.9,
+"sample": 348
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 3.5,
+"sample": 286
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 4,
+"sample": 327
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 2.6,
+"sample": 1364
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 1.9,
+"sample": 288
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 2.7,
+"sample": 232
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 2.2,
+"sample": 259
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 1.7,
+"sample": 267
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 3.2,
+"sample": 318
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 6.2,
+"sample": 6427
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 22.6,
+"sample": 589
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 11,
+"sample": 785
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 15.4,
+"sample": 568
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 3.2,
+"sample": 396
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 4,
+"sample": 386
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 4.8,
+"sample": 413
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 4,
+"sample": 380
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 13.6,
+"sample": 442
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 2.6,
+"sample": 275
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 3,
+"sample": 433
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 2.1,
+"sample": 555
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 7.6,
+"sample": 428
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 2.5,
+"sample": 376
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 3.3,
+"sample": 401
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 2.1,
+"sample": 1740
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 1.5,
+"sample": 427
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 2.4,
+"sample": 346
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 2.3,
+"sample": 479
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 2.8,
+"sample": 488
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 2.3,
+"sample": 2405
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 1.7,
+"sample": 396
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 3,
+"sample": 415
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 1.8,
+"sample": 436
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 2.4,
+"sample": 495
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 2.9,
+"sample": 363
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 1.2,
+"sample": 300
+},
+{
+"indicator": "wasting",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 2.5,
+"sample": 392
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 3.4,
+"sample": 2484
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 3.1,
+"sample": 327
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 2.3,
+"sample": 452
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 4.8,
+"sample": 402
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 2.6,
+"sample": 618
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 1.2,
+"sample": 419
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 3.2,
+"sample": 266
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 0.3,
+"sample": 2064
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 0.4,
+"sample": 572
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 0,
+"sample": 643
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 0.4,
+"sample": 849
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 3.2,
+"sample": 2812
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 0.3,
+"sample": 538
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 1,
+"sample": 489
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 4.2,
+"sample": 303
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 3.2,
+"sample": 270
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 3.4,
+"sample": 251
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 4,
+"sample": 348
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 2.6,
+"sample": 286
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 3.2,
+"sample": 327
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 3.7,
+"sample": 1364
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 3.1,
+"sample": 288
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 5.5,
+"sample": 232
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 2.8,
+"sample": 259
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 2.5,
+"sample": 267
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 3.9,
+"sample": 318
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 2.5,
+"sample": 6427
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 1,
+"sample": 589
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 0.8,
+"sample": 785
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 0.4,
+"sample": 568
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 1.5,
+"sample": 396
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 2.1,
+"sample": 386
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 3.5,
+"sample": 413
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 2.6,
+"sample": 380
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 0.7,
+"sample": 442
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 3.3,
+"sample": 275
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 3.9,
+"sample": 433
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 3.1,
+"sample": 555
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 2.7,
+"sample": 428
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 1.6,
+"sample": 376
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 4.5,
+"sample": 401
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 3.1,
+"sample": 1740
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 4.5,
+"sample": 427
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 3.5,
+"sample": 346
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 1.6,
+"sample": 479
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 3.1,
+"sample": 488
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 3.7,
+"sample": 2405
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 2.6,
+"sample": 396
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 2.1,
+"sample": 415
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 5.2,
+"sample": 436
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 2.2,
+"sample": 495
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 5.7,
+"sample": 363
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 6,
+"sample": 300
+},
+{
+"indicator": "child_overweight",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 5.6,
+"sample": 392
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 14.7,
+"sample": 2490
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 9.8,
+"sample": 332
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 13.7,
+"sample": 446
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 19.5,
+"sample": 408
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 16.8,
+"sample": 620
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 12.5,
+"sample": 416
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 12.6,
+"sample": 268
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 18.2,
+"sample": 2067
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 14.1,
+"sample": 572
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 16.2,
+"sample": 635
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 23.2,
+"sample": 860
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 11.4,
+"sample": 2807
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 25.9,
+"sample": 536
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 11.5,
+"sample": 492
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 10.8,
+"sample": 301
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 7.7,
+"sample": 270
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 11.3,
+"sample": 253
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 13.9,
+"sample": 349
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 8.1,
+"sample": 284
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 8.7,
+"sample": 322
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 5.5,
+"sample": 1361
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 4,
+"sample": 288
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 4,
+"sample": 233
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 5.7,
+"sample": 259
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 5.9,
+"sample": 267
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 6,
+"sample": 314
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 13.2,
+"sample": 6399
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 31.7,
+"sample": 589
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 27.1,
+"sample": 781
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 30.2,
+"sample": 568
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 11.1,
+"sample": 393
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 6.4,
+"sample": 386
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 13.9,
+"sample": 409
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 9,
+"sample": 379
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 19.9,
+"sample": 440
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 6.6,
+"sample": 273
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 9.2,
+"sample": 432
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 10.7,
+"sample": 553
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 9.6,
+"sample": 421
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 9.2,
+"sample": 377
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 9.8,
+"sample": 398
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 7.8,
+"sample": 1736
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 6.4,
+"sample": 424
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 9.2,
+"sample": 343
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 9.6,
+"sample": 480
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 6.3,
+"sample": 489
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 5.6,
+"sample": 2402
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 7,
+"sample": 395
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 3.5,
+"sample": 416
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 6.1,
+"sample": 437
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 5,
+"sample": 496
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 7.8,
+"sample": 362
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 3.4,
+"sample": 296
+},
+{
+"indicator": "underweight",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 5.3,
+"sample": 387
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 1.3,
+"sample": 2083
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 0.8,
+"sample": 392
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 1.7,
+"sample": 371
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 1.7,
+"sample": 390
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 0.4,
+"sample": 334
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 0.9,
+"sample": 352
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 1.7,
+"sample": 244
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 0.3,
+"sample": 1188
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 0.3,
+"sample": 369
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 0.3,
+"sample": 418
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 0.4,
+"sample": 401
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 1,
+"sample": 2573
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 1.2,
+"sample": 292
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 0,
+"sample": 340
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 0.8,
+"sample": 297
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 0.5,
+"sample": 258
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 1.9,
+"sample": 294
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 0.6,
+"sample": 344
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 1.4,
+"sample": 380
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 1.2,
+"sample": 368
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 0.2,
+"sample": 1524
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 0.4,
+"sample": 316
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 0.5,
+"sample": 272
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 0.6,
+"sample": 329
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 0,
+"sample": 275
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 0.2,
+"sample": 332
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 0.5,
+"sample": 4991
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 0.4,
+"sample": 323
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 0.7,
+"sample": 385
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 1.1,
+"sample": 299
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 0.3,
+"sample": 375
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 1.2,
+"sample": 375
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 0,
+"sample": 301
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 0.3,
+"sample": 379
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 0,
+"sample": 359
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 0.8,
+"sample": 293
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 0.7,
+"sample": 407
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 0,
+"sample": 377
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 0.4,
+"sample": 328
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 0.3,
+"sample": 402
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 0.3,
+"sample": 388
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 0.2,
+"sample": 1620
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 0,
+"sample": 408
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 0.3,
+"sample": 379
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 0.3,
+"sample": 424
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 0.5,
+"sample": 409
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 0.3,
+"sample": 2213
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 0,
+"sample": 343
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 0.5,
+"sample": 390
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 0,
+"sample": 368
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 0.3,
+"sample": 402
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 0,
+"sample": 389
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 1.3,
+"sample": 321
+},
+{
+"indicator": "women_short",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 1.1,
+"sample": 481
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 24,
+"sample": 1880
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 25,
+"sample": 363
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 23.5,
+"sample": 334
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 23.2,
+"sample": 351
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 21.3,
+"sample": 290
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 24.8,
+"sample": 311
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 25.1,
+"sample": 231
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 22.4,
+"sample": 1020
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 23,
+"sample": 320
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 21.8,
+"sample": 355
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 22,
+"sample": 345
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 23.9,
+"sample": 2406
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 20.3,
+"sample": 260
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 22.4,
+"sample": 312
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 23.9,
+"sample": 284
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 24.4,
+"sample": 240
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 25.2,
+"sample": 284
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 22.9,
+"sample": 327
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 24.5,
+"sample": 362
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 24,
+"sample": 337
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 25.8,
+"sample": 1438
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 25.4,
+"sample": 305
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 26,
+"sample": 255
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 26.2,
+"sample": 309
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 25.6,
+"sample": 262
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 25.8,
+"sample": 307
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 23.7,
+"sample": 4565
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 19.7,
+"sample": 288
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 21.4,
+"sample": 319
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 20.4,
+"sample": 270
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 23.9,
+"sample": 357
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 24.2,
+"sample": 342
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 22.7,
+"sample": 281
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 23,
+"sample": 356
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 21.8,
+"sample": 327
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 24.2,
+"sample": 278
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 25.1,
+"sample": 373
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 23.7,
+"sample": 337
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 25.5,
+"sample": 299
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 23.8,
+"sample": 372
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 22.8,
+"sample": 366
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 23.7,
+"sample": 1474
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 24.5,
+"sample": 369
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 23.9,
+"sample": 353
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 23.1,
+"sample": 387
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 23.3,
+"sample": 365
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 24,
+"sample": 2062
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 23.6,
+"sample": 321
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 23.8,
+"sample": 359
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 23.8,
+"sample": 343
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 23.6,
+"sample": 369
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 24.5,
+"sample": 368
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 24.5,
+"sample": 302
+},
+{
+"indicator": "women_mean_bmi",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 26,
+"sample": 445
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 11.8,
+"sample": 1880
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 7.8,
+"sample": 363
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 15.4,
+"sample": 334
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 11.8,
+"sample": 351
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 30.6,
+"sample": 290
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 16.7,
+"sample": 311
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 7.3,
+"sample": 231
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 24.2,
+"sample": 1020
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 23.2,
+"sample": 320
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 33.6,
+"sample": 355
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 18.9,
+"sample": 345
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 12.1,
+"sample": 2406
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 37,
+"sample": 260
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 24.9,
+"sample": 312
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 12.9,
+"sample": 284
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 7.3,
+"sample": 240
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 6,
+"sample": 284
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 12.1,
+"sample": 327
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 11.1,
+"sample": 362
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 10.3,
+"sample": 337
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 6.8,
+"sample": 1438
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 5.2,
+"sample": 305
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 5.3,
+"sample": 255
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 5.9,
+"sample": 309
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 5.2,
+"sample": 262
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 8.4,
+"sample": 307
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 12.1,
+"sample": 4565
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 44.6,
+"sample": 288
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 24.5,
+"sample": 319
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 38.8,
+"sample": 270
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 9.8,
+"sample": 357
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 7.5,
+"sample": 342
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 14.1,
+"sample": 281
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 13.4,
+"sample": 356
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 23.3,
+"sample": 327
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 12,
+"sample": 278
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 5.6,
+"sample": 373
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 8.2,
+"sample": 337
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 8.7,
+"sample": 299
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 10.1,
+"sample": 372
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 12.9,
+"sample": 366
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 9.1,
+"sample": 1474
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 7.4,
+"sample": 369
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 8.5,
+"sample": 353
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 10.8,
+"sample": 387
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 9.7,
+"sample": 365
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 5.7,
+"sample": 2062
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 7,
+"sample": 321
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 7.3,
+"sample": 359
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 4.9,
+"sample": 343
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 6.3,
+"sample": 369
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 3.7,
+"sample": 368
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 5.6,
+"sample": 302
+},
+{
+"indicator": "women_thin",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 4,
+"sample": 445
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 34.7,
+"sample": 1880
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 40.6,
+"sample": 363
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 31,
+"sample": 334
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 30.6,
+"sample": 351
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 17.9,
+"sample": 290
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 41.1,
+"sample": 311
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 41.9,
+"sample": 231
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 27,
+"sample": 1020
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 33.5,
+"sample": 320
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 24.5,
+"sample": 355
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 19.4,
+"sample": 345
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 35,
+"sample": 2406
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 13.2,
+"sample": 260
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 29,
+"sample": 312
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 33,
+"sample": 284
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 38.5,
+"sample": 240
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 48.3,
+"sample": 284
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 23.7,
+"sample": 327
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 40.8,
+"sample": 362
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 37.9,
+"sample": 337
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 51.9,
+"sample": 1438
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 45,
+"sample": 305
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 54.2,
+"sample": 255
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 57.2,
+"sample": 309
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 47.9,
+"sample": 262
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 52.8,
+"sample": 307
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 33.5,
+"sample": 4565
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 8.9,
+"sample": 288
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 14.7,
+"sample": 319
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 13.5,
+"sample": 270
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 33,
+"sample": 357
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 38,
+"sample": 342
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 22.1,
+"sample": 281
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 27.3,
+"sample": 356
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 18.8,
+"sample": 327
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 37.3,
+"sample": 278
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 46.4,
+"sample": 373
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 33.7,
+"sample": 337
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 45.1,
+"sample": 299
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 30.9,
+"sample": 372
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 24.1,
+"sample": 366
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 31.9,
+"sample": 1474
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 37.1,
+"sample": 369
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 32.3,
+"sample": 353
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 26.3,
+"sample": 387
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 31.3,
+"sample": 365
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 33.5,
+"sample": 2062
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 31.3,
+"sample": 321
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 31.4,
+"sample": 359
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 31.8,
+"sample": 343
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 30.9,
+"sample": 369
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 38.7,
+"sample": 368
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 36.2,
+"sample": 302
+},
+{
+"indicator": "women_overweight_or_obese",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 51.6,
+"sample": 445
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Coast",
+"value": 13.6,
+"sample": 1880
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Mombasa",
+"value": 19.9,
+"sample": 363
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kwale",
+"value": 12.3,
+"sample": 334
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kilifi",
+"value": 7.6,
+"sample": 351
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Tana River",
+"value": 5.3,
+"sample": 290
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Lamu",
+"value": 20.8,
+"sample": 311
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Taita Taveta",
+"value": 15.9,
+"sample": 231
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "North Eastern",
+"value": 8.1,
+"sample": 1020
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Garissa",
+"value": 10.6,
+"sample": 320
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Wajir",
+"value": 9.6,
+"sample": 355
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Mandera",
+"value": 3.4,
+"sample": 345
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Eastern",
+"value": 11.8,
+"sample": 2406
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Marsabit",
+"value": 3.2,
+"sample": 260
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Isiolo",
+"value": 9.4,
+"sample": 312
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Meru",
+"value": 12.5,
+"sample": 284
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Tharaka-Nithi",
+"value": 12.4,
+"sample": 240
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Embu",
+"value": 16.7,
+"sample": 284
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kitui",
+"value": 7,
+"sample": 327
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Machakos",
+"value": 14.2,
+"sample": 362
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Makueni",
+"value": 11.5,
+"sample": 337
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Central",
+"value": 22.1,
+"sample": 1438
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyandarua",
+"value": 17.9,
+"sample": 305
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyeri",
+"value": 24.1,
+"sample": 255
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kirinyaga",
+"value": 24.6,
+"sample": 309
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Murang'a",
+"value": 21.3,
+"sample": 262
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kiambu",
+"value": 22.3,
+"sample": 307
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Rift Valley",
+"value": 11.9,
+"sample": 4565
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Turkana",
+"value": 3.3,
+"sample": 288
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "West Pokot",
+"value": 4.1,
+"sample": 319
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Samburu",
+"value": 4.4,
+"sample": 270
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Trans-Nzoia",
+"value": 12.3,
+"sample": 357
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Uasin Gishu",
+"value": 11.5,
+"sample": 342
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Elgeyo Marakwet",
+"value": 6.1,
+"sample": 281
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Nandi",
+"value": 8.2,
+"sample": 356
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Baringo",
+"value": 5.6,
+"sample": 327
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Laikipia",
+"value": 14.7,
+"sample": 278
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Nakuru",
+"value": 17.3,
+"sample": 373
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Narok",
+"value": 11.4,
+"sample": 337
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kajiado",
+"value": 19,
+"sample": 299
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kericho",
+"value": 11.9,
+"sample": 372
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Bomet",
+"value": 7.6,
+"sample": 366
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Western",
+"value": 10.7,
+"sample": 1474
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kakamega",
+"value": 14.4,
+"sample": 369
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Vihiga",
+"value": 11.7,
+"sample": 353
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Bungoma",
+"value": 7.6,
+"sample": 387
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Busia",
+"value": 8.4,
+"sample": 365
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Nyanza",
+"value": 10.7,
+"sample": 2062
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Siaya",
+"value": 9.3,
+"sample": 321
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kisumu",
+"value": 9.6,
+"sample": 359
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Homa Bay",
+"value": 10.1,
+"sample": 343
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Migori",
+"value": 8.8,
+"sample": 369
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Kisii",
+"value": 13.2,
+"sample": 368
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "county",
+"name": "Nyamira",
+"value": 13.9,
+"sample": 302
+},
+{
+"indicator": "women_obese",
+"year": 2022,
+"level": "province",
+"name": "Nairobi",
+"value": 20.8,
+"sample": 445
+}
+]
+}
