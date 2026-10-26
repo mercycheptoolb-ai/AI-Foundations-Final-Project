@@ -281,8 +281,6 @@ def report() -> str:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
 <style>{CSS}</style></head><body><main>
 
-<div class="todo"><b>✏️ Before submitting (this box is hidden when printed):</b> add the real-user test in section 7 (the yellow box),
-or delete both yellow boxes.</div>
 
 <h1>🌱 <span class="k">Kukua</span>: a growth-check assistant for Kenya's community health workers</h1>
 <div class="rainbow"></div>
@@ -531,12 +529,6 @@ for about {usd(CHAT['mean_cost_usd'])} an answer, with the source on every reply
 <p><b>Cost for an organisation.</b> {usd(N['u100'], 2)} a month for a 100-CHP programme; {usd(N['u10k'], 0)} a month for 10,000 CHPs (AI only).</p>
 <p><b>Quality.</b> The referral matched the WHO rules in {on['quality']['referral_ok']}/{on['visits']} test visits by construction, and in every malfunction test.
 Missed weight-for-height cases are a known weakness of chart-only screening; Kukua computes it on every visit with length recorded.</p>
-<div class="todo"><b>✏️ Real user test (the strongest evidence; add before submitting).</b> Ask one CHP or nurse to (a) classify 10 sample children
-using the booklet chart and MUAC tape, timing it, and (b) do the same 10 with Kukua. Record minutes per child, number of children correctly classified
-(compare with Kukua's WHO result), and one quote. Add a screenshot or photo.
-<table style="background:#fff"><thead><tr><th>Measure</th><th class="num">Paper chart</th><th class="num">Kukua</th></tr></thead>
-<tbody><tr><td>Minutes per child</td><td class="num">…</td><td class="num">…</td></tr><tr><td>Correctly classified (of 10)</td><td class="num">…</td><td class="num">…</td></tr>
-<tr><td>Quote</td><td colspan="2">…</td></tr></tbody></table></div>
 
 <h2><span class="n">8</span>Limits and next steps</h2>
 <ul>

@@ -7,3 +7,4 @@ output/
 *.pyc
 .pytest_cache/
 *.db-journal
+docs/preview/
